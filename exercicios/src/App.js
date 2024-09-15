@@ -11,6 +11,14 @@ export default () =>
         <MinMax min={3} max={20} />
         <MinMax min={1} max={94} />
         <Aleatorio min={5} max={30} />
+        <Aleatorio min={5} max={30} />
+        <Aleatorio min={5} max={30} />
+        <Aleatorio min={5} max={30} />
+        <Aleatorio min={5} max={30} />
+        <Aleatorio min={5} max={30} />
+        <Aleatorio min={5} max={30} />
+        <Aleatorio min={5} max={30} />
+        <Aleatorio min={5} max={30} />
         {/* <X />
         <Primeiro/>
         <Comp1 />

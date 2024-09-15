@@ -4,11 +4,23 @@ import Primeiro from "./components/Primeiro";
 import X, {Comp1,Comp2} from './components/Multi';
 import MinMax from "./components/MinMax";
 import Aleatorio from "./components/Aleatorio";
+import Titulo from "./components/Titulo";
+import Botao from "./components/Botao";
+import Contador from "./components/Contador";
 
 
 export default () => 
     <View style={style.App}>
-        <MinMax min={3} max={20} />
+
+        <Contador inicial = {100} />
+
+        <Contador passo = {20} />
+
+        {/* <Botao /> */}
+
+        {/* <Titulo principal="Cadastro Produto" secundario="Tela de Cadastro do Produto" /> */}
+
+        {/* <MinMax min={3} max={20} />
         <MinMax min={1} max={94} />
         <Aleatorio min={5} max={30} />
         <Aleatorio min={5} max={30} />
@@ -18,7 +30,7 @@ export default () =>
         <Aleatorio min={5} max={30} />
         <Aleatorio min={5} max={30} />
         <Aleatorio min={5} max={30} />
-        <Aleatorio min={5} max={30} />
+        <Aleatorio min={5} max={30} /> */}
         {/* <X />
         <Primeiro/>
         <Comp1 />

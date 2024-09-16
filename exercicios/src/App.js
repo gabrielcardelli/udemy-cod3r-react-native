@@ -7,14 +7,16 @@ import Aleatorio from "./components/Aleatorio";
 import Titulo from "./components/Titulo";
 import Botao from "./components/Botao";
 import Contador from "./components/Contador";
+import Pai from "./components/indireta/Pai";
 
 
 export default () => 
     <View style={style.App}>
 
-        <Contador inicial = {100} />
+        {/* <Contador inicial = {100} />
+        <Contador passo = {20} /> */}
 
-        <Contador passo = {20} />
+        <Pai />
 
         {/* <Botao /> */}
 
